@@ -1,0 +1,20 @@
+pragma solidity ^0.4.24;
+import "./SafeMath.sol";
+import "ERC721.sol";
+contract media is ERC721 {
+    struct mediaart {
+       uint256 property; /* pixel of data changed by hash function*/
+       uint64 birthTime;
+       /*uint64 cooldownEndBlock;*/
+       string makerId;
+       string[] referenceId;
+       /*uint32 siringWithId;
+       uint16 cooldownIndex;
+       uint16 generation;*/
+    }
+    
+    function transfer(address _to, address _from, uint256 price) {
+        
+    }
+    
+}
